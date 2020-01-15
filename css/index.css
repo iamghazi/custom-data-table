@@ -1,0 +1,107 @@
+tfoot {
+  display: table-header-group;
+}
+
+label {
+  margin-bottom: 0rem !important;
+}
+
+th, td {
+  white-space: nowrap;
+}
+
+div.dt-button-collection button.dt-button.active:not(.disabled) {
+  background: #2cd07e!important;
+  color: #fff!important;
+  border-color: #2cd07e!important;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  padding: .25rem .5rem;
+  font-size: .76563rem;
+  line-height: 1.5;
+  border-radius: 2px;
+}
+
+div.dt-button-collection button.dt-button.active:not(.disabled):hover {
+  background: #25b06b!important;
+  color: #fff!important;
+  border-color: #25b06b!important;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  padding: .25rem .5rem;
+  font-size: .76563rem;
+  line-height: 1.5;
+  border-radius: 2px;
+}
+
+div.dt-button-collection button.dt-button {
+  background: #fff !important;
+  padding: .25rem .5rem !important;
+  font-size: .76563rem !important;
+  line-height: 1.5 !important;
+  border-radius: 1px !important;
+}
+
+table.dataTable thead .sorting:before {
+  right: 1em;
+  content: "\2191";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  opacity: 0.5;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+table.dataTable thead .sorting:after {
+  right: 0.5em;
+  content: "\2193";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  opacity: 0.5;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+table.dataTable thead .sorting_asc:after {
+  right: 0.5em;
+  content: "\2193";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  opacity: 0.5;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+table.dataTable thead .sorting_desc:before {
+  right: 1em;
+  content: "\2191";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  opacity: 0.5;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+table.dataTable thead .sorting_asc:before {
+  opacity: 1;
+  right: 1em;
+  content: "\21E7";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+table.dataTable thead .sorting_desc:after {
+  opacity: 1;
+  right: 0.5em;
+  content: "\21E9";
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
